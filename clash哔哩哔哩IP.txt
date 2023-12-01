@@ -1,4 +1,7 @@
     - { name: '🎬 B站IP', type: select, proxies: [DIRECT, '🇯🇵 日本家宽 01丨3x JP', '🇯🇵 日本家宽 02丨3x JP'] }
+    - 'DOMAIN-SUFFIX,bilivideo.com,DIRECT'
+    - 'DOMAIN-SUFFIX,mypikpak.com,DIRECT'
+    - 'DOMAIN-SUFFIX,hdhome.org,DIRECT'
     - 'DOMAIN-SUFFIX,biliapi.net,🎬 B站IP'
     - 'DOMAIN,api.bilibili.com,🎬 B站IP'
     - 'DOMAIN,api.bilibili.tv,🎬 B站IP'
