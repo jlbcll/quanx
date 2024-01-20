@@ -1,4 +1,5 @@
-    - { name: '🎬 B站IP', type: select, proxies: [DIRECT, '🇯🇵 日本家宽 01丨3x JP', '🇯🇵 日本家宽 02丨3x JP'] }
+    - { name: '🎬 B站IP', type: select, proxies: [DIRECT, '🇯🇵 日本 01丨1x JP', '🇯🇵 日本 02丨1x JP', '🇯🇵 日本 03丨1x JP', '🇯🇵 日本 04丨1x JP', '🇯🇵 日本 05丨1x JP', '🇯🇵 日本 06丨3x JP', '🇯🇵 日本 07丨3x JP', '🇯🇵 日本 08丨3x JP', '🇯🇵 日本 09丨3x JP', '🇯🇵 日本家宽 01丨3x JP', '🇯🇵 日本家宽 02丨3x JP', '🇯🇵 日本家宽 03丨3x JP', '🇯🇵 日本家宽 04丨3x JP', '🇯🇵 日本家宽 05丨3x JP'] }
+
 
     - 'DOMAIN,httpdns.bilivideo.com,REJECT'
     - 'IP-CIDR,47.101.175.206/32,REJECT,no-resolve'
