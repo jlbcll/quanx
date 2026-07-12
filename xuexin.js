@@ -17,7 +17,7 @@ body = body.replace(/"xz":"[^"]*"/g,
 '"xz":""');
 
 body = body.replace(/"xjzt":"[^"]*"/g,
-'"xjzt":"在籍(注册学籍)"');
+'"xjzt":"在籍（注册学籍）"');
 
 body = body.replace(/"byrq":"[^"]*"/g,
 '"byrq":"2100年07月15日"');
