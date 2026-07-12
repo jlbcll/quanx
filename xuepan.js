@@ -5,13 +5,13 @@ let body = $response.body;
 // 姓名
 body = body.replace(
   /"xm":"[^"]*"/,
-  '"xm":"徐影"'
+  '"xm":"潘柯琳"'
 );
 
 // 身份证号
 body = body.replace(
   /"sfzh":"[^"]*"/,
-  '"sfzh":"22230119730926212X"'
+  '"sfzh":"45020320001225106X"'
 );
 
 // 性别
@@ -23,13 +23,13 @@ body = body.replace(
 // 出生日期
 body = body.replace(
   /"csrq":"[^"]*"/,
-  '"csrq":"1973年09月26日"'
+  '"csrq":"2000年12月25日"'
 );
 
 // 民族
 body = body.replace(
   /"mz":"[^"]*"/,
-  '"mz":"汉族"'
+  '"mz":"壮族"'
 );
 
 
