@@ -5,13 +5,13 @@ let body = $response.body;
 // 姓名
 body = body.replace(
   /"xm":"[^"]*"/,
-  '"xm":"潘柯琳"'
+  '"xm":"徐影"'
 );
 
 // 身份证号
 body = body.replace(
   /"sfzh":"[^"]*"/,
-  '"sfzh":"45020320001225106X"'
+  '"sfzh":"22230119730926212X"'
 );
 
 // 性别
@@ -23,13 +23,13 @@ body = body.replace(
 // 出生日期
 body = body.replace(
   /"csrq":"[^"]*"/,
-  '"csrq":"2000年12月25日"'
+  '"csrq":"1973年9月26日"'
 );
 
 // 民族
 body = body.replace(
   /"mz":"[^"]*"/,
-  '"mz":"壮族"'
+  '"mz":"汉族"'
 );
 
 
@@ -38,13 +38,13 @@ body = body.replace(
 // 学校
 body = body.replace(
   /"yxmc":"[^"]*"/,
-  '"yxmc":"清华大学"'
+  '"yxmc":"麻省理工学院"'
 );
 
 // 专业
 body = body.replace(
   /"zymc":"[^"]*"/,
-  '"zymc":"核科学与技术"'
+  '"zymc":"人工智能"'
 );
 
 // 层次
