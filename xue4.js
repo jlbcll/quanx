@@ -80,6 +80,13 @@ body = body.replace(
 );
 
 
+body = body.replace(
+/"bjyjl":"[^"]*"/g,
+'"bjyjl":"在籍（注册学籍）"'
+);
+
+
+
 $done({
   body: body
 });
