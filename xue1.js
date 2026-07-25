@@ -11,7 +11,7 @@ body = body.replace(/"cc":"[^"]*"/g,
 '"cc":"博士研究生"');
 
 body = body.replace(/"xxxs":"[^"]*"/g,
-'"xxxs":"全日制"');
+'"xxxs":"普通全日制"');
 
 body = body.replace(/"xz":"[^"]*"/g,
 '"xz":""');
