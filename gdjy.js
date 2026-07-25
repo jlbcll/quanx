@@ -1,16 +1,46 @@
-let body = $response.body;
+let obj = JSON.parse($response.body);
 
 
-// 学籍信息 + 学历信息
-body = body.replace(/长春大学/g,"清华大学");
+// 学籍信息
+if (obj.data.xj && obj.data.xj.dataList) {
+    obj.data.xj.dataList.forEach(item => {
 
-body = body.replace(/数字媒体艺术设计/g,"核科学与技术");
+        // 学校
+        item.yxmc = "清华大学";
 
-body = body.replace(/专科/g,"博士研究生");
+        // 专业
+        item.zymc = "核科学与技术";
 
-body = body.replace(/业余/g,"普通全日制");
+        // 层次
+        item.cc = "博士研究生";
+
+        // 学习形式
+        item.xxxs = "普通全日制";
+
+    });
+}
+
+
+// 学历信息
+if (obj.data.xl && obj.data.xl.dataList) {
+    obj.data.xl.dataList.forEach(item => {
+
+        // 学校
+        item.yxmc = "清华大学";
+
+        // 专业
+        item.zymc = "核科学与技术";
+
+        // 层次
+        item.cc = "博士研究生";
+
+        // 学习形式
+        item.xxxs = "普通全日制";
+
+    });
+}
 
 
 $done({
-  body: body
+    body: JSON.stringify(obj)
 });
