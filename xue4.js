@@ -56,7 +56,7 @@ body = body.replace(
 
 /"xz":"[^"]*"/g,
 
-'"xz":"4年"'
+'"xz":""'
 
 );
 
