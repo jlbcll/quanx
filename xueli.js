@@ -36,7 +36,7 @@ body = body.replace(
 
 /"xxxs":"[^"]*"/g,
 
-'"xxxs":"全日制"'
+'"xxxs":"普通全日制"'
 
 );
 
