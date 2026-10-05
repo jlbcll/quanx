@@ -1,8 +1,8 @@
 let body = $response.body;
 
 body = body.replace(
-  /在线验证码/g,
-  '在线验证码【QX测试】'
+  '教育部学籍在线验证报告',
+  '【QX已生效】'
 );
 
 $done({
