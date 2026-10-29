@@ -1,7 +1,7 @@
 let body = $response.body;
 
-// 层次
-body = body.replace(/专科/g,"本科");
+// 学历类别
+body = body.replace(/成人高等教育/g,"普通高等教育");
 
 // 学籍状态
 body = body.replace(/不在籍（毕业）/g,"在籍（注册学籍）");
