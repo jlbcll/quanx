@@ -8,7 +8,7 @@ body = body.replace(/"zymc":"[^"]*"/g,
 '"zymc":"核科学与技术"');
 
 body = body.replace(/"cc":"[^"]*"/g,
-'"cc":"本科"');
+'"cc":"博士研究生"');
 
 body = body.replace(/"xxxs":"[^"]*"/g,
 '"xxxs":"普通全日制"');
