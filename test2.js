@@ -22,8 +22,12 @@ body = body.replace(/业余/g,"普通全日制");
 body = body.replace(/不在籍（毕业）/g,"在籍（注册学籍）");
 
 // 离校日期
-body = body.replace(/2026年09月15日/g,"2030年06月15日");
+body = body.replace(/2020年07月15日/g,"2030年06月15日");
 
+学籍）");
+
+// 离校日期
+body = body.replace(/2018年01月15日/g,"2026年09月15日");
 
 $done({
   body: body
