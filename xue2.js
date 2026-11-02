@@ -4,7 +4,7 @@ let body = $response.body;
 body = body.replace(/长春大学/g,"清华大学");
 
 // 层次
-body = body.replace(/专科/g,"博士研究生");
+body = body.replace(/专科/g,"本科");
 
 // 专业
 body = body.replace(/数字媒体艺术设计/g,"核科学与技术");
